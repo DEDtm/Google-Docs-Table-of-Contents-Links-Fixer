@@ -43,14 +43,14 @@ function fixTableOfContentsLinks() {
           textElement.setLinkUrl(startIndex, endIndex - 1, null);
           var bookmarkUrl = '#bookmark=' + matchingHeading.bookmarkId;
           textElement.setLinkUrl(startIndex, endIndex - 1, bookmarkUrl);
-          console.log('Исправлена ссылка: "' + linkText + '" -> ' + bookmarkUrl);
+          console.log('Link corrected: "' + linkText + '" -> ' + bookmarkUrl);
         }
         k = endIndex;
       }
     }
   }
   doc.saveAndClose();
-  console.log('Исправление ссылок завершено!');
+  console.log('Link fix complete!');
 }
 
 function findTextElements(element, textElements) {
@@ -100,5 +100,5 @@ function removeBrokenLinks() {
       }
     }
   }
-  console.log('Все сломанные ссылки удалены!');
+  console.log('All broken links have been removed!');
 }
