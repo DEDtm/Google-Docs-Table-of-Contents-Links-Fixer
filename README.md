@@ -19,8 +19,6 @@ A Google Apps Script that automatically fixes or removes broken Table of Content
 
 ## 🚀 Getting Started
 
-### 📝 For a New Project
-
 1. Open your Google Doc.
     
 2. Go to **Extensions → Apps Script**.
@@ -35,22 +33,7 @@ A Google Apps Script that automatically fixes or removes broken Table of Content
     
 7. Authorize when prompted.
     
-
-### 📄 For an Existing Document
-
-1. Open the target Google Doc.
-    
-2. Navigate to **Extensions → Apps Script** and open your **Google Docs Table of Contents Links Fixer** project.
-    
-3. Ensure the script is saved.
-    
-4. In the Apps Script editor, choose `fixTableOfContentsLinks` and click **Run**.
-    
-5. Grant permissions if required.
-    
-6. Verify that links are corrected.
-    
-7. 🗑️ Optionally, run `removeBrokenLinks` to clean up any remaining broken links.
+8. 🗑️ Optionally, run `removeBrokenLinks` to clean up any remaining broken links.
     
 
 ## 📋 Requirements
